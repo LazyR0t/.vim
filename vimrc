@@ -19,8 +19,6 @@ autocmd BufReadPost *.pdf silent %!pdftotext -nopgbrk -layout -q -eol unix "%" -
 autocmd BufReadPre *.rtf silent set ro
 autocmd BufReadPost *.rtf silent %!unrtf --text
 
-" For indented code
-" map <F5> <Esc> :perl use Text::FindIndent;VIM::DoCommand($_) for Text::FindIndent->to_vim_commands(join "\n", $curbuf->Get(1..$curbuf->Count()));<CR>
 
 set number
 syntax on
@@ -37,4 +35,8 @@ set ttyfast
 set ruler
 set undofile
 colorscheme desert
-"set runtimepath=/usr/share/vim,~/.vim,/usr/share/vim/vimfiles
+
+" Mappings
+nnoremap <F5> :GundoToggle<CR>
+" For indented code
+" map <F5> <Esc> :perl use Text::FindIndent;VIM::DoCommand($_) for Text::FindIndent->to_vim_commands(join "\n", $curbuf->Get(1..$curbuf->Count()));<CR>

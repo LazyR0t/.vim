@@ -1,0 +1,3 @@
+Usage:
+	Clone into home directory and then do:
+		ln -s ~/.vim/vimrc ~/.vimrc

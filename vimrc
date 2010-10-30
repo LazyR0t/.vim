@@ -21,6 +21,7 @@ autocmd BufReadPost *.rtf silent %!unrtf --text
 
 
 set number
+set t_Co=256
 syntax on
 set hlsearch
 set nocompatible
@@ -35,7 +36,7 @@ set ttyfast
 set ruler
 set undofile
 set ignorecase
-colorscheme desert
+colorscheme dante
 
 " Mappings
 nnoremap <F3> :GundoToggle<CR>

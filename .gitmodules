@@ -13,3 +13,6 @@
 [submodule "bundle/dante_colorscheme"]
 	path = bundle/dante_colorscheme
 	url = http://github.com/vim-scripts/dante.vim.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = http://github.com/vim-scripts/taglist.vim.git

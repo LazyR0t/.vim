@@ -38,7 +38,7 @@ set ignorecase
 colorscheme desert
 
 " Mappings
-nnoremap <F5> :GundoToggle<CR>
+nnoremap <F3> :GundoToggle<CR>
 map <F4> :w !sudo tee %
 " For indented code
-" map <F5> <Esc> :perl use Text::FindIndent;VIM::DoCommand($_) for Text::FindIndent->to_vim_commands(join "\n", $curbuf->Get(1..$curbuf->Count()));<CR>
+map <F5> <Esc> :perl use Text::FindIndent;VIM::DoCommand($_) for Text::FindIndent->to_vim_commands(join "\n", $curbuf->Get(1..$curbuf->Count()));<CR>

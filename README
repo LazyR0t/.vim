@@ -1,3 +1,4 @@
 Usage:
-	Clone into home directory and then do:
-		ln -s ~/.vim/vimrc ~/.vimrc
+	In home directory:
+	git clone --recursive https://github.com/bsagar3/.vim.git
+	ln -s ~/.vim/vimrc ~/.vimrc

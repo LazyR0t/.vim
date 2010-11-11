@@ -2,3 +2,7 @@ Usage:
 	In home directory:
 	git clone --recursive https://github.com/bsagar3/.vim.git
 	ln -s ~/.vim/vimrc ~/.vimrc
+
+You can also use the install_plugin.sh script to install new plugins:
+	./install_plugin.sh <git-link> <output-folder>
+	This script creates a submodule and makes a commit that a new plugin was installed

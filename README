@@ -1,3 +1,8 @@
+Older versions of vim:
+	If you have vim 7.3 you can uncomment "set undofile" in the vimrc file, if you want.
+Pre-reqs:
+	vim
+	ctags
 Usage:
 	In home directory:
 	git clone --recursive https://github.com/bsagar3/.vim.git

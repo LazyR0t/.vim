@@ -34,7 +34,7 @@ set visualbell
 set cursorline
 set ttyfast
 set ruler
-set undofile
+" set undofile
 set ignorecase
 colorscheme dante
 
